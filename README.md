@@ -73,7 +73,7 @@ Continue with:
 ```
 brew install git cmake boost
 git clone https://github.com/grif-it/investcoin-cli.git
-cd investcoin
+cd investcoin-cli
 cd build
 cmake ..
 make
