@@ -18,7 +18,7 @@ To build, change to a directory where this file is located, and run `make`.
 
 or
 
-Run these commands:
+Run these commands (Tested on Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS):
 ```
 cd ~
 sudo apt install build-essential git cmake libboost-all-dev
