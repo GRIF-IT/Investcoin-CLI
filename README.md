@@ -24,7 +24,7 @@ cd ~
 sudo apt install build-essential git cmake libboost-all-dev
 git clone https://github.com/grif-it/investcoin-cli.git
 cd investcoin-cli
-rm -R .git
+sudo rm -R .git
 mkdir build
 cd build
 cmake ..
@@ -75,7 +75,7 @@ Continue with:
 brew install git cmake boost
 git clone https://github.com/grif-it/investcoin-cli.git
 cd investcoin-cli
-rm -R .git
+sudo rm -R .git
 cd build
 cmake ..
 make
