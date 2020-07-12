@@ -1,0 +1,19 @@
+# Copyright (c) 2018-2020, The Investcoin Project, GRIF-IT
+
+[Unit]
+Description=Investcoin INVC service
+After=network.target
+
+[Service]
+Type=oneshot
+User=investcoin
+Group=investcoin
+PermissionsStartOnly=true
+RemainAfterExit=yes
+ExecStartPre=-/bin/mkdir -p /var/run/investcoin
+ExecStartPre=/bin/chown -R investcoin:investcoin /var/run/investcoin/
+ExecStart=/usr/lib/investcoin/invcd.sh --start
+ExecStop=/usr/lib/investcoin/invcd.sh --stop
+
+[Install]
+WantedBy=multi-user.target
