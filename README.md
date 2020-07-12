@@ -21,9 +21,9 @@ or
 Run these commands:
 ```
 cd ~
-sudo apt-get install build-essential git cmake libboost-all-dev
+sudo apt install build-essential git cmake libboost-all-dev
 git clone https://github.com/grif-it/investcoin-cli.git
-cd investcoin
+cd investcoin-cli
 mkdir build
 cd build
 cmake ..
