@@ -960,7 +960,7 @@ bool parseAddress(std::string address)
     }
     /* We can't get the actual prefix if the address is invalid for other
        reasons. To work around this, we can just check that the address starts
-       with K, as long as the prefix is the K prefix. This keeps it
+       with invc, as long as the prefix is the invc prefix. This keeps it
        working on testnets with different prefixes. */
     else if (address.substr(0, WalletConfig::addressPrefix.length()) 
           != WalletConfig::addressPrefix)
