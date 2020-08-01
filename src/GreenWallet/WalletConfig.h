@@ -8,7 +8,7 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string addressPrefix = "K";
+    const std::string addressPrefix = "invc";
 
     /* Your coins 'Ticker', e.g. Investcoin = INVC, Bitcoin = BTC */
     const std::string ticker = "INVC";
