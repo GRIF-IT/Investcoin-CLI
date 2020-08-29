@@ -24,11 +24,6 @@ cd ~
 sudo apt install build-essential git cmake libboost-all-dev
 git clone https://github.com/grif-it/investcoin-cli.git
 cd investcoin-cli
-sudo rm -R .git
-mkdir build
-cd build
-cmake ..
-cd ..
 make
 ```
 
