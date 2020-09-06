@@ -20,10 +20,14 @@ or
 
 Run these commands (Tested on Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS):
 ```
-cd ~
-sudo apt install build-essential git cmake libboost-all-dev
+cd ~ 
+sudo apt-get install build-essential git cmake libboost-all-dev 
 git clone https://github.com/grif-it/investcoin-cli.git
 cd investcoin-cli
+mkdir build 
+cd build 
+cmake .. 
+cd .. 
 make
 ```
 
